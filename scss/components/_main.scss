@@ -1,0 +1,170 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.background {
+  background-image: url("../img/background.png");
+}
+
+.title {
+  opacity: 0.4;
+  margin: 1em;
+  font-size: 2em;
+  -webkit-animation: glow 3s ease-in-out forwards;
+  animation: glow 3s ease-in-out forwards;
+}
+
+@keyframes glow {
+    0%   { opacity: .4; }
+    50%  { opacity: .9; }
+    100% { opacity: .4; }
+}
+
+@-webkit-keyframes glow {
+    0%   { opacity: .4; }
+    50%  { opacity: .9; }
+    100% { opacity: .4; }
+}
+
+.title:hover {
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.white {
+  color: $off-white;
+}
+
+.logo img {
+  margin: 1em;
+  height: 40px;
+}
+
+.top-bg {
+  width: 100%;
+  border-top: 2px solid $off-white;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+}
+
+.hex-container {
+
+}
+
+.text-container {
+
+}
+
+
+
+// Hexagons
+
+.desaturate {
+  -webkit-filter: grayscale(80%);
+  filter: grayscale(80%);
+  transition: filter 0.5s linear;
+}
+
+.desaturate:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.hexagon-wrapper {
+  position: relative;
+}
+
+.hexagon {
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+       -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(120deg);
+            transform: rotate(120deg);
+    cursor: pointer;
+    }
+
+.hexagon-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+
+.hexagon-in2 {
+    display: block;
+    height: 100%;
+    background-repeat: repeat;
+    background-position: 50%;
+    background-color: $off-white;
+    background-image: url(../img/jack-astors.png);
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+
+.center {
+  text-align: center;
+}
+
+.hexagon1 {
+    width: 400px;
+    height: 200px;
+    margin: 0;
+}
+
+.text-container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 38em){
+
+.hexagon1 {
+    width: 400px;
+    height: 200px;
+    margin: 0 0 0 -80px;
+}
+
+}
+
+
+@media only screen and (min-width: 60em){
+
+}
+

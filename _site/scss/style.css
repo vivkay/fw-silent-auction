@@ -1,0 +1,54 @@
+/*
+Error: File to import not found or unreadable: base.
+       Load path: /Users/NandaMunhoz/Creative Cloud Files/Graphic Design Semester 6/Grad Show/fundraising/fw-silent-auction/_site/scss
+        on line 1 of /Users/NandaMunhoz/Creative Cloud Files/Graphic Design Semester 6/Grad Show/fundraising/fw-silent-auction/_site/scss/style.scss
+
+1: @import 'base';
+2: @import 'mixins';
+3: @import 'components/grid';
+4: @import 'components/animation';
+5: @import 'components/type';
+6: @import 'components/main';
+
+Backtrace:
+/Users/NandaMunhoz/Creative Cloud Files/Graphic Design Semester 6/Grad Show/fundraising/fw-silent-auction/_site/scss/style.scss:1
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/import_node.rb:66:in `import'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/base.rb:36:in `send'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/stack.rb:79:in `with_base'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/stack.rb:115:in `with_frame'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/stack.rb:79:in `with_base'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/perform.rb:167:in `visit_children'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/base.rb:36:in `send'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/perform.rb:8:in `send'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/exec/sass_scss.rb:396:in `run'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/exec/base.rb:52:in `parse'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/../lib/sass/exec/base.rb:19:in `parse!'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
+/Users/NandaMunhoz/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:18
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: base.\A        Load path: /Users/NandaMunhoz/Creative Cloud Files/Graphic Design Semester 6/Grad Show/fundraising/fw-silent-auction/_site/scss\A         on line 1 of /Users/NandaMunhoz/Creative Cloud Files/Graphic Design Semester 6/Grad Show/fundraising/fw-silent-auction/_site/scss/style.scss\A \A 1: @import 'base';\A 2: @import 'mixins';\A 3: @import 'components/grid';\A 4: @import 'components/animation';\A 5: @import 'components/type';\A 6: @import 'components/main';"; }

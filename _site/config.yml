@@ -1,0 +1,4 @@
+markdown: redcarpet
+baseurl: /silent-auction
+permalink: pretty
+exclude: ['README.md']
