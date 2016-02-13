@@ -1017,6 +1017,9 @@ ol {
 .push-right, .push-r {
   margin-right: 1.3rem; }
 
+.pad-b-0 {
+  padding-bottom: 0; }
+
 .pad-top, .pad-t {
   padding-top: 1.3rem; }
 
@@ -1658,7 +1661,7 @@ body {
 
 .title {
   opacity: 0.4;
-  margin: 2.5em 0;
+  margin: 2em 0;
   font-size: 2em;
   -webkit-animation: glow 3s ease-in-out forwards;
   animation: glow 3s ease-in-out forwards;
@@ -1734,6 +1737,10 @@ body {
   text-align: center;
   position: relative; }
 
+.clear-space {
+  padding: 0;
+  margin: 0; }
+
 .desaturate {
   opacity: .5;
   transition: opacity 0.5s linear;
@@ -1742,6 +1749,12 @@ body {
   transition: filter 0.5s linear; }
 
 .desaturate:hover {
+  opacity: 1;
+  transition: opacity 0.5s linear;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%); }
+
+.desaturate:active {
   opacity: 1;
   transition: opacity 0.5s linear;
   -webkit-filter: grayscale(0%);

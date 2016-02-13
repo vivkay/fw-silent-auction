@@ -34,7 +34,7 @@ body{
 
 .title {
   opacity: 0.4;
-  margin: 2.5em 0;
+  margin: 2em 0;
   font-size: 2em;
   -webkit-animation: glow 3s ease-in-out forwards;
   animation: glow 3s ease-in-out forwards;
@@ -132,12 +132,9 @@ body{
   position: relative;
 }
 
-.hex-container {
-
-}
-
-.text-container {
-
+.clear-space {
+  padding: 0;
+  margin: 0;
 }
 
 .desaturate {
@@ -149,6 +146,13 @@ body{
 }
 
 .desaturate:hover {
+  opacity: 1;
+  transition: opacity 0.5s linear;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.desaturate:active {
   opacity: 1;
   transition: opacity 0.5s linear;
   -webkit-filter: grayscale(0%);
