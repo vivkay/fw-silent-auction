@@ -1365,7 +1365,7 @@ body {
 
 .title {
   opacity: 0.4;
-  margin: 1em;
+  margin: 2.5em 0;
   font-size: 2em;
   -webkit-animation: glow 3s ease-in-out forwards;
   animation: glow 3s ease-in-out forwards;
