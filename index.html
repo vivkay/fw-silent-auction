@@ -2,18 +2,20 @@
 layout: default
 ---
 
-<div class="grid">
-  {% for items in site.data.items %}
-    <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-l-1-4 unit-xl-1-5">
-          <img class="desaturate image" src="/img/{{items.image}}" alt="">
-          <div class="text-container">
-            <p class="white">{{items.number}}</p>
-            <p class="white">{{items.description}}</p>
-            <p class="white">{{items.sponsor}}</p>
-        </div> <!--text-container-->
-    </div> <!--unit-->
-  {% endfor %}
-</div> <!--grid-->
+<div class="padded-container">
+  <div class="grid">
+    {% for items in site.data.items %}
+      <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-l-1-5 unit-xl-1-6 center">
+            <img class="desaturate image" src="/img/{{items.image}}" alt="">
+            <div class="text-container">
+              <p class="white">{{items.number}}</p>
+              <p class="white">{{items.description}}</p>
+              <p class="white">{{items.sponsor}}</p>
+          </div> <!--text-container-->
+      </div> <!--unit-->
+    {% endfor %}
+  </div> <!--/grid-->
+</div><!--/padded-container-->
 
 <p class="white">THIS IS A TEST</p>
 <img class="desaturate" src="img/starbucks.svg" alt="">

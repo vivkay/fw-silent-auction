@@ -1650,6 +1650,9 @@ html {
 body {
   font-family: sans-serif; }
 
+.padded-container {
+  margin: 0 12%; }
+
 .background {
   background-image: url("../img/background.png"); }
 
@@ -1744,7 +1747,7 @@ body {
   text-align: center; }
 
 .image {
-  width: 60%; }
+  width: 85%; }
 
 .text-container {
   text-align: center;
