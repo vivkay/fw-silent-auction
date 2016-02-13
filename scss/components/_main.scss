@@ -141,12 +141,16 @@ body{
 }
 
 .desaturate {
+  opacity: .5;
+  transition: opacity 0.5s linear;
   -webkit-filter: grayscale(80%);
   filter: grayscale(80%);
   transition: filter 0.5s linear;
 }
 
 .desaturate:hover {
+  opacity: 1;
+  transition: opacity 0.5s linear;
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
