@@ -1,29 +1,50 @@
 - number: 1
   description: $20 gift card
-  sponsor: Jack Astors
-  image: starbucks.svg
+  sponsor: Starbucks
+  image: starbucks.png
 
 - number: 2
   description: $50 gift card
-  sponsor: Yo Mamma
-  image: jack-astors.svg
+  sponsor: Jack Astor's
+  image: jack-astors.png
 
 - number: 3
-  description: $1M Cash
-  sponsor: Your Dreams
-  image: starbucks.svg
+  description: $25 gift card
+  sponsor: Subway
+  image: subway.png
 
 - number: 4
   description: $20 gift card
   sponsor: Jack Astors
-  image: starbucks.svg
+  image: jack-astors.png
 
 - number: 5
-  description: $50 gift card
-  sponsor: Yo Mamma
-  image: starbucks.svg
+  description: $25 gift card
+  sponsor: Subway
+  image: subway.png
 
 - number: 6
-  description: $1M Cash
-  sponsor: Your Dreams
-  image: starbucks.svg
+  description: $20 gift card
+  sponsor: Starbucks
+  image: starbucks.png
+
+- number: 7
+  description: $50 gift card
+  sponsor: Jack Astor's
+  image: jack-astors.png
+
+- number: 8
+  description: $25 gift card
+  sponsor: Subway
+  image: subway.png
+
+- number: 9
+  description: $20 gift card
+  sponsor: Jack Astors
+  image: jack-astors.png
+
+- number: 10
+  description: $25 gift card
+  sponsor: Subway
+  image: subway.png
+
