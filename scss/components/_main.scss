@@ -50,6 +50,7 @@ body{
 
 .title:hover {
   opacity: 1;
+  -webkit-transition: opacity 1s linear;
   transition: opacity 1s linear;
 }
 
