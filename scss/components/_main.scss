@@ -51,6 +51,27 @@ body{
     100% { opacity: .4; }
 }
 
+.title {
+  opacity: .2;
+  -webkit-animation: glow2 3s ease-in-out forwards;
+  animation: glow2 3s ease-in-out forwards;
+  -webkit-animation-delay: 3.25s;
+  animation-delay: 3.25s;
+}
+
+@keyframes glow2 {
+    0%   { opacity: .2; }
+    50%  { opacity: .9; }
+    100% { opacity: .8; }
+}
+
+@-webkit-keyframes glow2 {
+    0%   { opacity: .2; }
+    50%  { opacity: .9; }
+    100% { opacity: .8; }
+}
+
+
 .padded-container {
   margin: 0 12%;
 }
