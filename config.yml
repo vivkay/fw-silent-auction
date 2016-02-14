@@ -1,4 +1,4 @@
 markdown: redcarpet
-baseurl: /silent-auction
+baseurl: /fw-silent-auction
 permalink: pretty
 exclude: ['README.md']
