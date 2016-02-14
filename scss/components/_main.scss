@@ -22,24 +22,21 @@ html {
 
 body{
   font-family: sans-serif;
+  margin: 0;
 }
 
-.padded-container {
-  margin: 0 12%;
-}
-
-.background {
-  background-image: url("../img/background.png");
-}
-
-.title {
+.sa-logo {
   opacity: 0.4;
-  margin: 2em 0em 0em 0em;
-  font-size: 2em;
   -webkit-animation: glow 3s ease-in-out forwards;
   animation: glow 3s ease-in-out forwards;
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
+}
+
+.sa-logo:hover {
+  opacity: 1;
+  -webkit-transition: opacity 1s linear;
+  transition: opacity 1s linear;
 }
 
 @keyframes glow {
@@ -54,10 +51,12 @@ body{
     100% { opacity: .4; }
 }
 
-.title:hover {
-  opacity: 1;
-  -webkit-transition: opacity 1s linear;
-  transition: opacity 1s linear;
+.padded-container {
+  margin: 0 12%;
+}
+
+.background {
+  background-image: url("../img/background.png");
 }
 
 .top-line {
@@ -127,6 +126,14 @@ body{
   padding: 1em;
 }
 
+.align-switch-left {
+  text-align: center;
+}
+
+.align-switch-right {
+  text-align: center;
+}
+
 .container {
   text-align: center;
   position: relative;
@@ -175,19 +182,19 @@ body{
 // Add clock styling
 
 .clock-title {
-  font-size: 1em;
+  font-size: .75em;
   color: $off-white;
-  opacity: .5;
+  opacity: .7;
+  margin-bottom: 0em;
 }
 
 .clock-width {
   width: 100%;
-  margin-top: 2em;
 }
 
 .inline {
   display: inline-block;
-  padding: 1em;
+  padding: 0 1em;
 }
 
 .clock-number {
@@ -202,12 +209,39 @@ body{
   opacity: .5;
 }
 
+@media only screen and (min-width: 25em) {
+
+
+}
+
 @media only screen and (min-width: 38em){
+
 
 }
 
 
 @media only screen and (min-width: 60em){
+
+    .align-switch-left {
+    text-align: left;
+  }
+
+  .align-switch-right {
+    text-align: right;
+  }
+
+}
+
+
+@media only screen and (min-width: 80em) {
+
+    .align-switch-left {
+    text-align: left;
+  }
+
+  .align-switch-right {
+    text-align: right;
+  }
 
 }
 

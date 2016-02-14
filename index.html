@@ -2,8 +2,43 @@
 layout: default
 ---
 
+<!--Codepen link http://codepen.io/SitePoint/pen/MwNPVq/ -->
+<!--Codepen tutorial explanation http://www.sitepoint.com/build-javascript-countdown-timer-no-dependencies/ -->
+
+<div class="grid padded-container">
+  <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 island align-switch-left">
+      <h1 class="white title">SILENT AUCTION</h1>
+      <p class="smalltext">Welcome to the Framework 2016 Silent Auction Fundraising page. Select your item and place your bid using the form below.</p>
+  </div>
+
+  <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2  island align-switch-right">
+    <div class="clock-width">
+      <p class="clock-title pad-t-1-2 pad-b-1-2">Limited time left!</p>
+      <div id="clockdiv">
+        <div class="inline">
+          <span class="days clock-number desaturate"></span>
+          <p class="smalltext">Days</p>
+        </div>
+        <div class="inline">
+          <span class="hours clock-number desaturate"></span>
+          <p class="smalltext">Hours</p>
+        </div>
+        <div class="inline">
+          <span class="minutes clock-number desaturate"></span>
+          <p class="smalltext">Minutes</p>
+        </div>
+        <div class="inline">
+          <span class="seconds clock-number desaturate"></span>
+          <p class="smalltext">Seconds</p>
+        </div>
+      </div><!--/clockdiv-->
+    </div><!--/clock-width-->
+  </div><!--/unit-->
+
+</div><!--/grid-->
+
 <div class="padded-container">
-  <div class="grid">
+  <div class="grid pad-t">
     {% for items in site.data.items %}
       <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-l-1-5 unit-xl-1-6 center pad-b desaturate">
         <img class="image" src="{{site.baseurl}}/img/{{items.image}}" alt="">
