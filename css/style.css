@@ -1811,10 +1811,10 @@ body {
 
 .inline {
   display: inline-block;
-  padding: 0 1em; }
+  padding: 0 .5em; }
 
 .clock-number {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #f8f2e9;
   opacity: .5; }
 
@@ -1824,12 +1824,6 @@ body {
   opacity: .5; }
 
 @media only screen and (min-width: 60em) {
-  .align-switch-left {
-    text-align: left; }
-
-  .align-switch-right {
-    text-align: right; } }
-@media only screen and (min-width: 80em) {
   .align-switch-left {
     text-align: left; }
 
