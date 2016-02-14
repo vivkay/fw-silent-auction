@@ -1722,6 +1722,10 @@ body {
 .white {
   color: #f8f2e9; }
 
+.grey {
+  color: #f8f2e9;
+  opacity: .6; }
+
 .logo img {
   margin: 2em;
   height: 40px; }
