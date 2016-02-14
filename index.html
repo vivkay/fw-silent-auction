@@ -8,9 +8,9 @@ layout: default
       <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-l-1-5 unit-xl-1-6 center pad-b desaturate">
         <img class="image" src="/img/{{items.image}}" alt="">
          <div class="text-container">
-            <p class="white milli clear-space">{{items.number}}</p>
-            <p class="white kilo clear-space">{{items.description}}</p>
-            <p class="white kilo clear-space">{{items.sponsor}}</p>
+            <p class="white milli clear-space">{{site.baseurl}}{{items.number}}</p>
+            <p class="white kilo clear-space">{{site.baseurl}}{{items.description}}</p>
+            <p class="white kilo clear-space">{{site.baseurl}}{{items.sponsor}}</p>
         </div><!--/text-container-->
       </div> <!--/unit-->
     {% endfor %}
