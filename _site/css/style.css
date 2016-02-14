@@ -1661,7 +1661,7 @@ body {
 
 .title {
   opacity: 0.4;
-  margin: 2em 0;
+  margin: 2em 0em 0em 0em;
   font-size: 2em;
   -webkit-animation: glow 3s ease-in-out forwards;
   animation: glow 3s ease-in-out forwards;
@@ -1769,5 +1769,28 @@ body {
 .text-container {
   text-align: center;
   margin: 0 auto; }
+
+.clock-title {
+  font-size: 1em;
+  color: #f8f2e9;
+  opacity: .5; }
+
+.clock-width {
+  width: 100%;
+  margin-top: 2em; }
+
+.inline {
+  display: inline-block;
+  padding: 1em; }
+
+.clock-number {
+  font-size: 2em;
+  color: #f8f2e9;
+  opacity: .5; }
+
+.smalltext {
+  font-size: .65em;
+  color: #f8f2e9;
+  opacity: .5; }
 
 /*# sourceMappingURL=style.css.map */
