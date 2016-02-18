@@ -1654,6 +1654,13 @@ body {
   font-family: sans-serif;
   margin: 0; }
 
+.sa-noscript {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px); }
+
 .sa-logo {
   opacity: 0.4;
   -webkit-animation: glow 3s ease-in-out forwards;

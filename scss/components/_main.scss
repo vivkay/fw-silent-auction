@@ -25,6 +25,10 @@ body{
   margin: 0;
 }
 
+.sa-noscript {
+  @include element-invisible;
+}
+
 .sa-logo {
   opacity: 0.4;
   -webkit-animation: glow 3s ease-in-out forwards;
