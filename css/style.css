@@ -1841,6 +1841,9 @@ body {
 .sa-btn:active {
   background-color: #daba8b; }
 
+.sa-form {
+  margin: 0 10%; }
+
 @media only screen and (min-width: 60em) {
   .align-switch-left {
     text-align: left; }
