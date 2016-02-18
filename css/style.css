@@ -1849,7 +1849,30 @@ body {
   background-color: #daba8b; }
 
 .sa-form {
-  margin: 0 10%; }
+  max-width: 30em;
+  margin: 0 auto; }
+
+.sa-input * {
+  display: block;
+  width: 100%; }
+
+.sa-btn-bid {
+  margin: 0;
+  border: 0;
+  font-size: .75rem;
+  padding: .75rem 1.5rem;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: lighter;
+  color: #000;
+  background-color: #f8f2e9;
+  letter-spacing: 1.5px; }
+
+.push-top, .push-t {
+  margin-top: .5rem; }
+
+.sa-btn-bid:active, .sa-btn-bid:focus, .sa-btn-bid:focus {
+  backround-color: red; }
 
 @media only screen and (min-width: 60em) {
   .align-switch-left {
