@@ -275,9 +275,15 @@ body{
   margin: 0 auto;
 }
 
-.sa-input * {
-  display: block;
-  width: 100%;
+.sa-input {
+  *{
+    display: block;
+    width: 100%;
+  }
+
+  input {
+    padding-left: 1em;
+  }
 }
 
 .sa-btn-bid {
@@ -312,6 +318,7 @@ body{
 .sa-terms {
 
 }
+
 
 @media only screen and (min-width: 25em) {
 
