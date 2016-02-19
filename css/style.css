@@ -1882,6 +1882,12 @@ body {
 .sa-btn-bid:active, .sa-btn-bid:focus, .sa-btn-bid:focus {
   backround-color: red; }
 
+.sa-btn:active {
+  color: red; }
+
+.sa-btn:focus {
+  color: red; }
+
 .sa-checkbox {
   transform: scale(1.5); }
 

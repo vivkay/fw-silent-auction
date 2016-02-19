@@ -1,6 +1,6 @@
 $(function(){
   $('.js-item').click(function(e){
-    e.preventDefault();
+    // e.preventDefault();
     console.log($(this).attr('id'));
     $('.js-input-number').val($(this).attr('id'));
     $('html, body').animate({
