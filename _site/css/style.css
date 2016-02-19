@@ -1782,7 +1782,7 @@ body {
   line-height: 1.25em; }
 
 .desaturate {
-  opacity: .7;
+  opacity: .8;
   transition: opacity 0.5s linear;
   -webkit-filter: grayscale(80%);
   filter: grayscale(80%);
@@ -1881,6 +1881,9 @@ body {
 
 .sa-btn-bid:active, .sa-btn-bid:focus, .sa-btn-bid:focus {
   backround-color: red; }
+
+.sa-checkbox {
+  transform: scale(1.5); }
 
 @media only screen and (min-width: 60em) {
   .align-switch-left {
