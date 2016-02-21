@@ -44,10 +44,15 @@ layout: default
         <img class="image" src="https://grads.images.algonquindesign.ca.s3.amazonaws.com/silent-auction/{{items.image}}" alt="">
         <div class="text-container">
           <p class="white milli clear-space">{{items.number}}</p>
-          <p class="white mega clear-space">{{items.sponsor}}</p>
-          <p class="sa-grey kilo clear-space">{{items.description}}</p>
-          <p class="white micro italic clear-space line-height-small">{{items.value}}</p>
-          <p class="white micro italic clear-space line-height-small">{{items.suggestion}}</p>
+          <div class="sa-sponsor">
+            <p class="white mega clear-space">{{items.sponsor}}</p>
+            <span class="sa-underline"></span>
+          </div>
+          <p class="sa-grey clear-space">{{items.description}}</p>
+          <div class="pad-even">
+            <p class="white micro italic clear-space line-height-small">{{items.value}}</p>
+            <p class="white micro italic clear-space line-height-small">{{items.suggestion}}</p>
+          </div>
           <a class="white unit sa-btn sa-btn-bid push-t js-item" id="{{items.number}}" href="#{{items.number}}">Place Bid</a>
         </div><!--/text-container-->
       </div> <!--/unit-->

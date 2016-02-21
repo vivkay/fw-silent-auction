@@ -1916,6 +1916,19 @@ footer {
 .sa-grey {
   color: #7e7f82; }
 
+.sa-sponsor {
+  width: 100%; }
+
+.sa-underline {
+  border-bottom: 1px dotted #7e7f82;
+  width: 58%;
+  height: 2px;
+  display: block;
+  margin: .5em auto; }
+
+.pad-even {
+  padding-top: .5em; }
+
 @media only screen and (min-width: 60em) {
   .align-switch-left {
     text-align: left; }
