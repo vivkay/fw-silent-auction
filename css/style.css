@@ -1913,6 +1913,9 @@ footer {
 .sa-checkbox {
   transform: scale(1.5); }
 
+.sa-grey {
+  color: #7e7f82; }
+
 @media only screen and (min-width: 60em) {
   .align-switch-left {
     text-align: left; }
