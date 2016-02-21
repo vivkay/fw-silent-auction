@@ -42,13 +42,13 @@ layout: default
     {% for items in site.data.items %}
       <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-l-1-5 unit-xl-1-6 center pad-b-2 desaturate">
         <img class="image" src="https://grads.images.algonquindesign.ca.s3.amazonaws.com/silent-auction/{{items.image}}" alt="">
-         <div class="text-container">
-            <p class="white milli clear-space">{{items.number}}</p>
-            <p class="white kilo clear-space">{{items.sponsor}}</p>
-            <p class="white kilo clear-space">{{items.description}}</p>
-            <p class="white micro italic clear-space line-height-small">{{items.value}}</p>
-            <p class="white micro italic clear-space line-height-small">{{items.suggestion}}</p>
-            <a class="white unit sa-btn sa-btn-bid push-t js-item" id="{{items.number}}" href="#{{items.number}}">Place Bid</a>
+        <div class="text-container">
+          <p class="white milli clear-space">{{items.number}}</p>
+          <p class="white kilo clear-space">{{items.sponsor}}</p>
+          <p class="white kilo clear-space">{{items.description}}</p>
+          <p class="white micro italic clear-space line-height-small">{{items.value}}</p>
+          <p class="white micro italic clear-space line-height-small">{{items.suggestion}}</p>
+          <a class="white unit sa-btn sa-btn-bid push-t js-item" id="{{items.number}}" href="#{{items.number}}">Place Bid</a>
         </div><!--/text-container-->
       </div> <!--/unit-->
     {% endfor %}
