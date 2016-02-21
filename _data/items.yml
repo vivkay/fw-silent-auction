@@ -3,68 +3,137 @@
   sponsor: Doree's Habit
   image: dorees-habit-50.jpg
   value: Value $50.00
-  suggestion: Start at $20.00
+  suggestion: Start at $25.00
 
 - number: 2
-  description: $50 gift card
-  sponsor: Jack Astor's
-  image: jack-astors.png
+  description: gift card
+  sponsor: The Grand
+  image: the-grand-50.jpg
   value: Value $50.00
   suggestion: Start at $25.00
 
 - number: 3
-  description: $25 gift card
-  sponsor: Subway
-  image: subway.png
+  description: gift card
+  sponsor: Metropolitan
+  image: metropolitan-50.jpg
   value: Value $50.00
   suggestion: Start at $25.00
 
 - number: 4
-  description: $20 gift card
-  sponsor: Jack Astors
-  image: jack-astors.png
+  description: gift card
+  sponsor: Subway
+  image: subway-card-50.jpg
   value: Value $50.00
   suggestion: Start at $25.00
 
 - number: 5
-  description: $25 gift card
-  sponsor: Subway
-  image: subway.png
-  value: Value $50.00
-  suggestion: Start at $25.00
+  description: signed poster
+  sponsor: Andrea Emery
+  image: draplin-poster-100.jpg
+  value: Value $100.00
+  suggestion: Start at $40.00
 
 - number: 6
-  description: $20 gift card
-  sponsor: Starbucks
-  image: starbucks.png
-  value: Value $50.00
-  suggestion: Start at $25.00
+  description: Radiographs (if necessary) and cleaning service
+  sponsor: AC Dental Clinic
+  image: free-dental-exam-100.jpg
+  value: Value $100.00
+  suggestion: Start at $40.00
 
 - number: 7
-  description: $50 gift card
-  sponsor: Jack Astor's
-  image: jack-astors.png
-  value: Value $50.00
-  suggestion: Start at $25.00
+  description: Oral-B Vitality electric toothbrush
+  sponsor: AC Dental Clinic
+  image: electric-toothbrush.jpg
+  value: Value $40.00
+  suggestion: Start at $15.00
 
 - number: 8
-  description: $25 gift card
-  sponsor: Subway
-  image: subway.png
-  value: Value $50.00
-  suggestion: Start at $25.00
+  description: girl's night out gift basket
+  sponsor: Chenise Paquette
+  image: girls-night-out-giftbasket.jpg
+  value: Value $75.00
+  suggestion: Start at $35.00
 
 - number: 9
-  description: $20 gift card
-  sponsor: Jack Astors
-  image: jack-astors.png
+  description: iPad 2 case Combo
+  sponsor: Connections Bookstore
+  image: ipad-2-case-combo-50.jpg
   value: Value $50.00
   suggestion: Start at $25.00
 
 - number: 10
-  description: $25 gift card
-  sponsor: Subway
-  image: subway.png
+  description: Jackson Triggs Icewine
+  sponsor: Chenise Paquette
+  image: jackson-triggs-icewine.jpg
   value: Value $50.00
   suggestion: Start at $25.00
 
+- number: 11
+  description: Kate Spade ring
+  sponsor: Emily Lavinskas
+  image: kate-spade-ring-54.jpg
+  value: Value $54.00
+  suggestion: Start at $25.00
+
+- number: 12
+  description: Make Shit Happen shirt (L) - Red
+  sponsor: Andrea Emery
+  image: make-shit-happen-shirts.jpg
+  value: Value $25.00
+  suggestion: Start at $10.00
+
+- number: 13
+  description: Make Shit Happen shirt (M) - Maroon
+  sponsor: Andrea Emery
+  image: make-shit-happen-shirts.jpg
+  value: Value $25.00
+  suggestion: Start at $10.00
+
+- number: 14
+  description: McIntosh Mugset
+  sponsor: Chenise Paquette
+  image: mcintosh-mugset.jpg
+  value: Value $50.00
+  suggestion: Start at $25.00
+
+- number: 15
+  description: gift card
+  sponsor: Nspired Signage & Advertising
+  image: nspired-signs-50.jpg
+  value: Value $50.00
+  suggestion: Start at $25.00
+
+- number: 16
+  description: Camo five panel hat
+  sponsor: Off The Dome
+  image: otd-5-panel.jpg
+  value: Value $40.00
+  suggestion: Start at $20.00
+
+- number: 17
+  description: sterling silver abalone marcasite necklace
+  sponsor: Jamie Smith
+  image: silver-abalone-marcasite-necklace-100.jpg
+  value: Value $100.00
+  suggestion: Start at $50.00
+
+- number: 18
+  description: Tocara diami necklace
+  sponsor: Jamie Smith
+  image: tocara-diami-necklace-75.jpg
+  value: Value $75.00
+  suggestion: Start at $40.00
+
+- number: 19
+  description: tabletop easel
+  sponsor: Marissa Godwin
+  image: table-top-easel-75.jpg
+  value: Value $75.00
+  suggestion: Start at $40.00
+
+- number: 20
+  description: standing easel
+  sponsor: Marissa Godwin
+  image: easel-150.jpg
+  value: Value $150.00
+  suggestion: Start at $65.00
