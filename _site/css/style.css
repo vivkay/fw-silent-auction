@@ -1907,10 +1907,10 @@ footer {
   backround-color: #000; }
 
 .sa-btn:active {
-  color: red; }
+  color: black; }
 
 .sa-btn:focus {
-  color: red; }
+  color: black; }
 
 .sa-checkbox {
   transform: scale(1.5); }
