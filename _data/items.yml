@@ -1,9 +1,9 @@
 - number: 1
   description: gift card
-  sponsor: Starbucks
-  image: starbucks.png
-  value: Value $20.00
-  suggestion: Start at $10.00
+  sponsor: Doree's Habit
+  image: dorees-habit-50.jpg
+  value: Value $50.00
+  suggestion: Start at $20.00
 
 - number: 2
   description: $50 gift card

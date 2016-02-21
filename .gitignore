@@ -1,3 +1,7 @@
 prepros.cfg
 *.map
 _site
+
+_site/css/style.css.map
+
+_site/index.html
