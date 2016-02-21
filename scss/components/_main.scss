@@ -283,7 +283,13 @@ body{
 
   input {
     padding-left: 1em;
+    // &:first-child, &:nth-child(2){
+    //   display: block;
+    //   width: calc(50% - 1em);
+    // }
   }
+
+
 }
 
 .sa-btn-bid {
