@@ -1787,6 +1787,18 @@ body {
   margin: 0;
 }
 
+footer {
+  margin: 3em 0 0;
+  display: block;
+  padding: 2em;
+  text-align: center;
+}
+
+footer p {
+  display: block;
+  margin: 2em;
+}
+
 .sa-noscript {
   position: absolute !important;
   height: 1px;
@@ -1865,8 +1877,23 @@ body {
   }
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 250ms ease-in 500ms forwards;
+}
+
 .padded-container {
   margin: 0 12%;
+  transition: all 500ms ease-in-out;
 }
 
 .background {
@@ -1995,6 +2022,7 @@ body {
 
 .image {
   width: 85%;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
 .text-container {
@@ -2090,6 +2118,14 @@ body {
 
 .sa-btn-bid:active, .sa-btn-bid:focus, .sa-btn-bid:focus {
   backround-color: red;
+}
+
+.sa-btn:active {
+  color: red;
+}
+
+.sa-btn:focus {
+  color: red;
 }
 
 .sa-checkbox {
