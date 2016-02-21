@@ -44,8 +44,8 @@ footer{
   opacity: 0.4;
   -webkit-animation: glow 3s ease-in-out forwards;
   animation: glow 3s ease-in-out forwards;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: .25s;
+  animation-delay: .25s;
 }
 
 .sa-logo:hover {
@@ -70,8 +70,8 @@ footer{
   opacity: .2;
   -webkit-animation: glow2 3s ease-in-out forwards;
   animation: glow2 3s ease-in-out forwards;
-  -webkit-animation-delay: 3.25s;
-  animation-delay: 3.25s;
+  -webkit-animation-delay: .9s;
+  animation-delay: .9s;
 }
 
 @keyframes glow2 {
@@ -308,7 +308,6 @@ footer{
     // }
   }
 
-
 }
 
 .sa-btn-bid {
@@ -322,6 +321,10 @@ footer{
     color: $black;
     background-color: $off-white;
     letter-spacing: 1.5px;
+    border-radius: 3px;
+    box-shadow: 0 15px 55px rgba(255,255,255,.3),
+              0 -15px 60px lighten($black,1%),
+              inset 0 2px 2px lighten($black,1%);
 }
 
 .push-top, .push-t {
@@ -329,7 +332,7 @@ footer{
 }
 
 .sa-btn-bid:active, .sa-btn-bid:focus, .sa-btn-bid:focus {
-    backround-color: red;
+    backround-color: $black;
 }
 
 .sa-btn:active {

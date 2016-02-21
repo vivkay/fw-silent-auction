@@ -1674,8 +1674,8 @@ footer {
   opacity: 0.4;
   -webkit-animation: glow 3s ease-in-out forwards;
   animation: glow 3s ease-in-out forwards;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s; }
+  -webkit-animation-delay: .25s;
+  animation-delay: .25s; }
 
 .sa-logo:hover {
   opacity: 1;
@@ -1700,8 +1700,8 @@ footer {
   opacity: .2;
   -webkit-animation: glow2 3s ease-in-out forwards;
   animation: glow2 3s ease-in-out forwards;
-  -webkit-animation-delay: 3.25s;
-  animation-delay: 3.25s; }
+  -webkit-animation-delay: .9s;
+  animation-delay: .9s; }
 
 @keyframes glow2 {
   0% {
@@ -1896,13 +1896,15 @@ footer {
   font-weight: lighter;
   color: #000;
   background-color: #f8f2e9;
-  letter-spacing: 1.5px; }
+  letter-spacing: 1.5px;
+  border-radius: 3px;
+  box-shadow: 0 15px 55px rgba(255, 255, 255, 0.3), 0 -15px 60px #030303, inset 0 2px 2px #030303; }
 
 .push-top, .push-t {
   margin-top: 1rem; }
 
 .sa-btn-bid:active, .sa-btn-bid:focus, .sa-btn-bid:focus {
-  backround-color: red; }
+  backround-color: #000; }
 
 .sa-btn:active {
   color: red; }
