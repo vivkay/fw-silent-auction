@@ -298,10 +298,13 @@ footer{
   *{
     display: block;
     width: 100%;
+    background-color: $off-white;
+    border-radius: 5px;
   }
 
   input {
     padding-left: 1em;
+    border-radius: 5px;
     // &:first-child, &:nth-child(2){
     //   display: block;
     //   width: calc(50% - 1em);

@@ -1882,9 +1882,12 @@ footer {
 
 .sa-input * {
   display: block;
-  width: 100%; }
+  width: 100%;
+  background-color: #f8f2e9;
+  border-radius: 5px; }
 .sa-input input {
-  padding-left: 1em; }
+  padding-left: 1em;
+  border-radius: 5px; }
 
 .sa-btn-bid {
   margin: 0;
