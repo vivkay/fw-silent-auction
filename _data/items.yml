@@ -137,3 +137,17 @@
   image: easel-150.jpg
   value: Value $150.00
   suggestion: Start at $65.00
+
+- number: 21
+  description: Standing Easel
+  sponsor: Artist Supplies
+  image: easel-150.jpg
+  value: Value $150.00
+  suggestion: Start at $65.00
+
+- number: 22
+  description: Standing Easel
+  sponsor: Artist Supplies
+  image: easel-150.jpg
+  value: Value $150.00
+  suggestion: Start at $65.00
