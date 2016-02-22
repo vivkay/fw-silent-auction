@@ -241,6 +241,12 @@ footer{
   background-color: #daba8b;
 }
 
+.sa-btn:focus{
+  border: solid 5px $white;
+  background-color: #daba8b;
+  color: $white;
+}
+
 .sa-form-wrapper {
   text-align: center;
   margin: 0 10%;

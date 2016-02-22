@@ -2095,6 +2095,12 @@ footer p {
   background-color: #daba8b;
 }
 
+.sa-btn:focus {
+  border: solid 5px #fff;
+  background-color: #daba8b;
+  color: #fff;
+}
+
 .sa-form-wrapper {
   text-align: center;
   margin: 0 10%;
