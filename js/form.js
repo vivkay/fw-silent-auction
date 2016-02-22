@@ -9,3 +9,10 @@ $(function(){
   });
 });
 
+
+$('.rtt-btn').click(function(){
+	$('html, body').animate({
+	  scrollTop: $('#sa-top').offset().top
+	}, 750);
+});
+
