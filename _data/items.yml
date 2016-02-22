@@ -162,14 +162,14 @@
 - number: 24
   description: Gift Card
   sponsor: Lone Star
-  image:
+  image: lone-star-50.jpg
   value: Value $50.00
   suggestion: Start at $20.00
 
 - number: 25
   description: Gift Card
   sponsor: Kungfu Bistro
-  image:
+  image: kung-fu-bistro-75.jpg
   value: Value $75.00
   suggestion: Start at $35.00
 
