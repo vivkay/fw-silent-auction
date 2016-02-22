@@ -319,7 +319,7 @@ footer{
 }
 
 .sa-btn-bid {
-      margin: 0 ;
+    margin: 0 ;
     border: 0;
     font-size: .75rem;
     padding: .75rem 1.5rem;
@@ -411,3 +411,17 @@ footer{
 
 }
 
+.rtt{
+  opacity: 0.75;
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 4em;
+  transition: all 250ms ease-in-out;
+  .rtt-btn{
+    padding: 1em;
+  }
+  &:hover{
+    opacity: 1;
+  }
+}

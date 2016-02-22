@@ -2205,6 +2205,23 @@ footer p {
   }
 }
 
+.rtt {
+  opacity: 0.75;
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 4em;
+  transition: all 250ms ease-in-out;
+}
+
+.rtt .rtt-btn {
+  padding: 1em;
+}
+
+.rtt:hover {
+  opacity: 1;
+}
+
 .sa-card-wrapper {
   padding: 30px;
 }
