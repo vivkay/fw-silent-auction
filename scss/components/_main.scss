@@ -380,3 +380,408 @@ footer{
     opacity: 1;
   }
 }
+
+// ============================================
+
+//Animated Envelope Styling starts here
+
+.sa-card-wrapper {
+  padding: 30px;
+  height: 25em;
+  display: block;
+  overflow: hidden;
+}
+
+#sa-envelope{
+  margin: 100px auto 0;
+  position: relative;
+  width: 0;
+  height: 0;
+  z-index: 0;
+  border-style: solid;
+  border-width: 0 150px 100px 150px;
+  border-color: transparent transparent $sa-grey-4 transparent;
+  box-shadow: 0 100px 0 0 $sa-grey-4,
+              0 150px 90px 0 rgba(0,0,0,0.3);
+}
+
+#sa-envelope:after,
+#sa-envelope:before{
+  content:'';
+  display: block;
+  position: absolute;
+  top: 100px;
+  border-style: solid;
+}
+
+#sa-envelope:after{
+  width: 0;
+  height: 0;
+  left: 0;
+  border-width: 100px 150px 100px 0;
+  border-color: transparent $sa-grey-3 transparent transparent;
+}
+
+#sa-envelope:before{
+  width: 210px;
+  height: 180px;
+  left:-150px;
+  border-width: 200px 0 0 300px;
+  border-color: transparent transparent transparent $sa-grey-2;
+}
+
+// #sa-envelope:hover #sa-card {
+//   top:-20px;
+// }
+
+// #sa-envelope:active #sa-card {
+//   top: -20px;
+// }
+
+.js-card-up {
+  top: -20em;
+}
+
+#sa-envelope:active #sa-card {
+
+  animation: sa-card-up 500ms linear forwards;
+}
+
+#sa-card{
+  width:260px;
+  height: 220px;
+  position: absolute;
+  top:70px;
+  left:-130px;
+  z-index: -1;
+  background: url(../img/bg-cream-01.png);
+  border-radius: 0px;
+  transition: top 0.5s ease-in-out;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding: 40px 0 0 0;
+  color: #919499;
+}
+
+
+@keyframes card-up {
+
+    0% {
+        transform: translateY(0px)
+    }
+
+    80% {
+        -webkit-transform: translateY(-20em)
+    }
+
+    100% {
+        transform: translateY(3px)
+    }
+}
+
+.sa-thanks {
+  padding-top: 50px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.sa-signature {
+  font-size: .5em;
+  padding-top: .5em;
+}
+
+.sa-card-arrow {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid $sa-grey-2;
+  margin: 0 auto;
+}
+
+.sa-bounce {
+    -webkit-animation: sa-bounce 1s linear alternate infinite;
+    animation: sa-bounce 1s linear alternate infinite;
+}
+
+@-webkit-keyframes sa-bounce {
+
+    0% {
+        -webkit-transform: translateY(-3px)
+    }
+
+    80% {
+        -webkit-transform: translateY(2px)
+    }
+
+    100% {
+        -webkit-transform: translateY(3px)
+    }
+}
+
+@keyframes sa-bounce {
+
+    0% {
+        transform: translateY(-3px)
+    }
+
+    80% {
+        -webkit-transform: translateY(2px)
+    }
+
+    100% {
+        transform: translateY(3px)
+    }
+}
+
+/* Button styling inspired by http://codepen.io/jason-kinney/pen/fChrj */
+
+
+.box-glow {
+  box-shadow: 0 15px 105px rgba(255,255,255,.4),
+        0 -15px 60px lighten($black,1%),
+        inset 0 2px 2px lighten($black,1%);
+        width: 100%;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.text {
+  width: 33%;
+}
+
+.sa-btn-bid {
+    margin: 0 ;
+    border: 0;
+    font-size: .75rem;
+    padding: .75rem 1.5rem;
+    text-decoration: none;
+    display:inline-block;
+    font-weight: lighter;
+    color: $black;
+    background-color: $off-white;
+    letter-spacing: 1.5px;
+    border-radius: 3px;
+    box-shadow: 0 15px 55px rgba(255,255,255,.3),
+              0 -15px 60px lighten($black,1%),
+              inset 0 2px 2px lighten($black,1%);
+}
+
+.sa-btn-bid:active, .sa-btn-bid:focus, .sa-btn-bid:focus {
+    backround-color: $black;
+    color: grey;
+}
+
+.sa-btn-bid:hover {
+    backround-color: red;
+}
+
+/* Hover confetti from http://codepen.io/mikehobizal/pen/unvxa */
+body {
+  background: #feffef;
+  font-family: Helvetica, sans-serif;
+}
+
+@-webkit-keyframes bang {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@-moz-keyframes bang {
+  from {
+    -moz-transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes bang {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.hoverme-card {
+  width: 100%;
+  margin: 0 auto 0;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.hoverme {
+  width: 100%;
+  margin: 50px auto 0;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.hoverme span {
+  color: #333;
+  font-size: .9em;
+}
+.hoverme i {
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 0;
+  width: 3px;
+  height: 5px;
+  background: red;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(1) {
+  -webkit-transform: translate3d(78px, -67px, 0) rotate(334deg);
+  -moz-transform: translate3d(78px, -67px, 0) rotate(334deg);
+  -ms-transform: translate3d(78px, -67px, 0) rotate(334deg);
+  -o-transform: translate3d(78px, -67px, 0) rotate(334deg);
+  transform: translate3d(78px, -67px, 0) rotate(334deg);
+  background: $yellow;
+  -webkit-animation: bang 700ms ease-out forwards;
+  -moz-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(2) {
+  -webkit-transform: translate3d(4px, -61px, 0) rotate(318deg);
+  -moz-transform: translate3d(4px, -61px, 0) rotate(318deg);
+  -ms-transform: translate3d(4px, -61px, 0) rotate(318deg);
+  -o-transform: translate3d(4px, -61px, 0) rotate(318deg);
+  transform: translate3d(4px, -61px, 0) rotate(318deg);
+  background: $red;
+  -webkit-animation: bang 700ms ease-out forwards;
+  -moz-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(3) {
+  -webkit-transform: translate3d(-68px, -76px, 0) rotate(102deg);
+  -moz-transform: translate3d(-68px, -76px, 0) rotate(102deg);
+  -ms-transform: translate3d(-68px, -76px, 0) rotate(102deg);
+  -o-transform: translate3d(-68px, -76px, 0) rotate(102deg);
+  transform: translate3d(-68px, -76px, 0) rotate(102deg);
+  background: $green;
+  -webkit-animation: bang 700ms ease-out forwards;
+  -moz-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(4) {
+  -webkit-transform: translate3d(-82px, -61px, 0) rotate(112deg);
+  -moz-transform: translate3d(-82px, -61px, 0) rotate(112deg);
+  -ms-transform: translate3d(-82px, -61px, 0) rotate(112deg);
+  -o-transform: translate3d(-82px, -61px, 0) rotate(112deg);
+  transform: translate3d(-82px, -61px, 0) rotate(112deg);
+  background: $purple;
+  -webkit-animation: bang 700ms ease-out forwards;
+  -moz-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(5) {
+  -webkit-transform: translate3d(46px, -66px, 0) rotate(77deg);
+  -moz-transform: translate3d(46px, -66px, 0) rotate(77deg);
+  -ms-transform: translate3d(46px, -66px, 0) rotate(77deg);
+  -o-transform: translate3d(46px, -66px, 0) rotate(77deg);
+  transform: translate3d(46px, -66px, 0) rotate(77deg);
+  background: $yellow;
+  -webkit-animation: bang 700ms ease-out forwards;
+  -moz-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(6) {
+  -webkit-transform: translate3d(-74px, -88px, 0) rotate(283deg);
+  -moz-transform: translate3d(-74px, -88px, 0) rotate(283deg);
+  -ms-transform: translate3d(-74px, -88px, 0) rotate(283deg);
+  -o-transform: translate3d(-74px, -88px, 0) rotate(283deg);
+  transform: translate3d(-74px, -88px, 0) rotate(283deg);
+  background: $red;
+  -webkit-animation: bang 700ms ease-out forwards;
+  -moz-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(7) {
+  -webkit-transform: translate3d(-29px, -78px, 0) rotate(187deg);
+  -moz-transform: translate3d(-29px, -78px, 0) rotate(187deg);
+  -ms-transform: translate3d(-29px, -78px, 0) rotate(187deg);
+  -o-transform: translate3d(-29px, -78px, 0) rotate(187deg);
+  transform: translate3d(-29px, -78px, 0) rotate(187deg);
+  background: $green;
+  -webkit-animation: bang 700ms ease-out forwards;
+  -moz-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(8) {
+  -webkit-transform: translate3d(33px, -53px, 0) rotate(88deg);
+  -moz-transform: translate3d(33px, -53px, 0) rotate(88deg);
+  -ms-transform: translate3d(33px, -53px, 0) rotate(88deg);
+  -o-transform: translate3d(33px, -53px, 0) rotate(88deg);
+  transform: translate3d(33px, -53px, 0) rotate(88deg);
+  background: $purple;
+  -webkit-animation: bang 700ms ease-out forwards;
+  -moz-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(9) {
+  -webkit-transform: translate3d(80px, -80px, 0) rotate(344deg);
+  -moz-transform: translate3d(80px, -80px, 0) rotate(344deg);
+  -ms-transform: translate3d(80px, -80px, 0) rotate(344deg);
+  -o-transform: translate3d(80px, -80px, 0) rotate(344deg);
+  transform: translate3d(80px, -80px, 0) rotate(344deg);
+  background: $yellow;
+  -webkit-animation: bang 700ms ease-out forwards;
+  -moz-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+
+.hoverme:hover i:nth-of-type(10) {
+  -webkit-transform: translate3d(64px, -88px, 0) rotate(235deg);
+  -moz-transform: translate3d(64px, -88px, 0) rotate(235deg);
+  -ms-transform: translate3d(64px, -88px, 0) rotate(235deg);
+  -o-transform: translate3d(64px, -88px, 0) rotate(235deg);
+  transform: translate3d(64px, -88px, 0) rotate(235deg);
+  background: $purple;
+  -webkit-animation: bang 700ms ease-out forwards;
+  -moz-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(11) {
+  -webkit-transform: translate3d(63px, -55px, 0) rotate(212deg);
+  -moz-transform: translate3d(63px, -55px, 0) rotate(212deg);
+  -ms-transform: translate3d(63px, -55px, 0) rotate(212deg);
+  -o-transform: translate3d(63px, -55px, 0) rotate(212deg);
+  transform: translate3d(63px, -55px, 0) rotate(212deg);
+  background: $green;
+  -webkit-animation: bang 700ms ease-out forwards;
+  -moz-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(12) {
+  -webkit-transform: translate3d(89px, -71px, 0) rotate(15deg);
+  -moz-transform: translate3d(89px, -71px, 0) rotate(15deg);
+  -ms-transform: translate3d(89px, -71px, 0) rotate(15deg);
+  -o-transform: translate3d(89px, -71px, 0) rotate(15deg);
+  transform: translate3d(89px, -71px, 0) rotate(15deg);
+  background: $red;
+  -webkit-animation: bang 700ms ease-out forwards;
+  -moz-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}

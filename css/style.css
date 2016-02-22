@@ -2209,6 +2209,9 @@ footer p {
 
 .sa-card-wrapper {
   padding: 30px;
+  height: 25em;
+  display: block;
+  overflow: hidden;
 }
 
 #sa-envelope {
@@ -2248,17 +2251,13 @@ footer p {
   border-color: transparent transparent transparent #a6a5a8;
 }
 
-#sa-envelope:hover #sa-card {
-  top: -20px;
+.js-card-up {
+  top: -20em;
 }
 
 #sa-envelope:active #sa-card {
-  top: -20px;
-}
-
-#sa-envelope:active #sa-card {
-  -webkit-animation: sa-card-up 1s linear forwards;
-  animation: sa-card-up 1s linear forwards;
+  -webkit-animation: sa-card-up 500ms linear forwards;
+          animation: sa-card-up 500ms linear forwards;
 }
 
 #sa-card {
@@ -2273,18 +2272,8 @@ footer p {
   transition: top 0.5s ease-in-out;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   padding: 40px 0 0 0;
   color: #919499;
-}
-
-@-webkit-keyframes sa-card-up {
-  0% {
-    -webkit-transform: translateY(0px);
-  }
-  100% {
-    -webkit-transform: translateY(-20px);
-  }
 }
 
 @-webkit-keyframes card-up {
@@ -2293,7 +2282,7 @@ footer p {
             transform: translateY(0px);
   }
   80% {
-    -webkit-transform: translateY(-20px);
+    -webkit-transform: translateY(-20em);
   }
   100% {
     -webkit-transform: translateY(3px);
@@ -2307,7 +2296,7 @@ footer p {
             transform: translateY(0px);
   }
   80% {
-    -webkit-transform: translateY(-20px);
+    -webkit-transform: translateY(-20em);
   }
   100% {
     -webkit-transform: translateY(3px);
@@ -2364,4 +2353,219 @@ footer p {
     -webkit-transform: translateY(3px);
             transform: translateY(3px);
   }
+}
+
+/* Button styling inspired by http://codepen.io/jason-kinney/pen/fChrj */
+.box-glow {
+  box-shadow: 0 15px 105px rgba(255, 255, 255, 0.4), 0 -15px 60px #030303, inset 0 2px 2px #030303;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.text {
+  width: 33%;
+}
+
+.sa-btn-bid {
+  margin: 0;
+  border: 0;
+  font-size: .75rem;
+  padding: .75rem 1.5rem;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: lighter;
+  color: #000;
+  background-color: #f8f2e9;
+  letter-spacing: 1.5px;
+  border-radius: 3px;
+  box-shadow: 0 15px 55px rgba(255, 255, 255, 0.3), 0 -15px 60px #030303, inset 0 2px 2px #030303;
+}
+
+.sa-btn-bid:active, .sa-btn-bid:focus, .sa-btn-bid:focus {
+  backround-color: #000;
+  color: grey;
+}
+
+.sa-btn-bid:hover {
+  backround-color: red;
+}
+
+/* Hover confetti from http://codepen.io/mikehobizal/pen/unvxa */
+body {
+  background: #feffef;
+  font-family: Helvetica, sans-serif;
+}
+
+@-webkit-keyframes bang {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes bang {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.hoverme-card {
+  width: 100%;
+  margin: 0 auto 0;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.hoverme {
+  width: 100%;
+  margin: 50px auto 0;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.hoverme span {
+  color: #333;
+  font-size: .9em;
+}
+
+.hoverme i {
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 0;
+  width: 3px;
+  height: 5px;
+  background: red;
+  opacity: 0;
+}
+
+.hoverme:hover i:nth-of-type(1) {
+  -webkit-transform: translate3d(78px, -67px, 0) rotate(334deg);
+  -ms-transform: translate3d(78px, -67px, 0) rotate(334deg);
+  transform: translate3d(78px, -67px, 0) rotate(334deg);
+  background: #eab63f;
+  -webkit-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+
+.hoverme:hover i:nth-of-type(2) {
+  -webkit-transform: translate3d(4px, -61px, 0) rotate(318deg);
+  -ms-transform: translate3d(4px, -61px, 0) rotate(318deg);
+  transform: translate3d(4px, -61px, 0) rotate(318deg);
+  background: #df4827;
+  -webkit-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+
+.hoverme:hover i:nth-of-type(3) {
+  -webkit-transform: translate3d(-68px, -76px, 0) rotate(102deg);
+  -ms-transform: translate3d(-68px, -76px, 0) rotate(102deg);
+  transform: translate3d(-68px, -76px, 0) rotate(102deg);
+  background: #00a29c;
+  -webkit-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+
+.hoverme:hover i:nth-of-type(4) {
+  -webkit-transform: translate3d(-82px, -61px, 0) rotate(112deg);
+  -ms-transform: translate3d(-82px, -61px, 0) rotate(112deg);
+  transform: translate3d(-82px, -61px, 0) rotate(112deg);
+  background: #64689b;
+  -webkit-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+
+.hoverme:hover i:nth-of-type(5) {
+  -webkit-transform: translate3d(46px, -66px, 0) rotate(77deg);
+  -ms-transform: translate3d(46px, -66px, 0) rotate(77deg);
+  transform: translate3d(46px, -66px, 0) rotate(77deg);
+  background: #eab63f;
+  -webkit-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+
+.hoverme:hover i:nth-of-type(6) {
+  -webkit-transform: translate3d(-74px, -88px, 0) rotate(283deg);
+  -ms-transform: translate3d(-74px, -88px, 0) rotate(283deg);
+  transform: translate3d(-74px, -88px, 0) rotate(283deg);
+  background: #df4827;
+  -webkit-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+
+.hoverme:hover i:nth-of-type(7) {
+  -webkit-transform: translate3d(-29px, -78px, 0) rotate(187deg);
+  -ms-transform: translate3d(-29px, -78px, 0) rotate(187deg);
+  transform: translate3d(-29px, -78px, 0) rotate(187deg);
+  background: #00a29c;
+  -webkit-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+
+.hoverme:hover i:nth-of-type(8) {
+  -webkit-transform: translate3d(33px, -53px, 0) rotate(88deg);
+  -ms-transform: translate3d(33px, -53px, 0) rotate(88deg);
+  transform: translate3d(33px, -53px, 0) rotate(88deg);
+  background: #64689b;
+  -webkit-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+
+.hoverme:hover i:nth-of-type(9) {
+  -webkit-transform: translate3d(80px, -80px, 0) rotate(344deg);
+  -ms-transform: translate3d(80px, -80px, 0) rotate(344deg);
+  transform: translate3d(80px, -80px, 0) rotate(344deg);
+  background: #eab63f;
+  -webkit-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+
+.hoverme:hover i:nth-of-type(10) {
+  -webkit-transform: translate3d(64px, -88px, 0) rotate(235deg);
+  -ms-transform: translate3d(64px, -88px, 0) rotate(235deg);
+  transform: translate3d(64px, -88px, 0) rotate(235deg);
+  background: #64689b;
+  -webkit-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+
+.hoverme:hover i:nth-of-type(11) {
+  -webkit-transform: translate3d(63px, -55px, 0) rotate(212deg);
+  -ms-transform: translate3d(63px, -55px, 0) rotate(212deg);
+  transform: translate3d(63px, -55px, 0) rotate(212deg);
+  background: #00a29c;
+  -webkit-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+
+.hoverme:hover i:nth-of-type(12) {
+  -webkit-transform: translate3d(89px, -71px, 0) rotate(15deg);
+  -ms-transform: translate3d(89px, -71px, 0) rotate(15deg);
+  transform: translate3d(89px, -71px, 0) rotate(15deg);
+  background: #df4827;
+  -webkit-animation: bang 700ms ease-out forwards;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
 }
