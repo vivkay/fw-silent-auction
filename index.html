@@ -41,7 +41,7 @@ layout: default
   <div class="grid pad-t">
     {% for items in site.data.items %}
 
-      <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-l-1-5 unit-xl-1-6 center pad-b-2 desaturate">
+      <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-xl-1-5 center pad-b-2 desaturate">
         <img class="image" src="http://grads.images.algonquindesign.ca.s3.amazonaws.com/silent-auction/{{items.image}}" alt="{{items.description}}">
         <div class="text-container">
           <p class="white milli clear-space">{{items.number}}</p>
@@ -75,7 +75,7 @@ layout: default
     <div class="unit unit-xs-1">
 
     <script type="text/javascript">var submitted=false;</script>
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='thanks.html';}"></iframe>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='{{site.baseurl}}/thanks/';}"></iframe>
     <form class="sa-input" action="http://docs.google.com/forms/d/1HgDDy6xHI0QgesGlnqvhv096Iog3wERBfxXDMFDrBrs/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
       <!-- Items -->
         <input class="js-input-number sa-grey milli" type="number" min="1" max="35" name="entry.395295645" placeholder="Item Number ex. '1'">

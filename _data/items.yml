@@ -139,50 +139,64 @@
   suggestion: Start at $65.00
 
 - number: 21
-  description: by Katie McPeak
-  sponsor: Handmade Jewelry
-  image:
-  value: Value $25.00
-  suggestion: Start at $10.00
-
-- number: 22
-  description: by Avery Burnett
-  sponsor: Designer Plantholders
-  image:
-  value: Value $25.00
-  suggestion: Start at $10.00
-
-- number: 23
   description: by Anna Trojanowska
   sponsor: Embroidered Hoop (L)
   image: embroidery-20.jpg
   value: Value $25.00
   suggestion: Start at $10.00
 
-- number: 24
+- number: 22
   description: by Anna Trojanowska
   sponsor: Embroidered Hoop (M)
   image: embroidery-20.jpg
   value: Value $20.00
   suggestion: Start at $7.50
 
-- number: 25
+- number: 23
   description: by Anna Trojanowska
   sponsor: Embroidered Hoop (S)
   image: embroidery-20.jpg
   value: Value $15.00
   suggestion: Start at $5.00
 
-- number: 26
+- number: 24
   description: Gift Card
   sponsor: Lone Star
   image:
   value: Value $50.00
   suggestion: Start at $20.00
 
-- number: 27
+- number: 25
   description: Gift Card
   sponsor: Kungfu Bistro
   image:
   value: Value $75.00
   suggestion: Start at $35.00
+
+- number: 26
+  description: Designer Plant-holder
+  sponsor: Avery Burnett
+  image: gold-rhino-plant-10.jpg
+  value: Value $10.00
+  suggestion: Start at $4.00
+
+- number: 27
+  description: Designer Plant-holder
+  sponsor: Avery Burnett
+  image: gold-jungle-cat-plant-10.jpg
+  value: Value $10.00
+  suggestion: Start at $4.00
+
+- number: 28
+  description: Designer bracelet set
+  sponsor: Avery Burnett
+  image: feather-bracelet-set-15.jpg
+  value: Value $15.00
+  suggestion: Start at $6.00
+
+- number: 29
+  description: Designer bracelet
+  sponsor: Avery Burnett
+  image: ice-cream-bracelet-5.jpg
+  value: Value $5.00
+  suggestion: Start at $2.00
