@@ -128,15 +128,15 @@
   description: Tabletop Easel
   sponsor: Artist Supplies
   image: table-top-easel-75.jpg
-  value: Value $75.00
-  suggestion: Start at $35.00
+  value: Value $15.00
+  suggestion: Start at $6.00
 
 - number: 20
   description: Standing Easel
   sponsor: Artist Supplies
   image: easel-150.jpg
-  value: Value $150.00
-  suggestion: Start at $65.00
+  value: Value $30.00
+  suggestion: Start at $10.00
 
 - number: 21
   description: by Anna Trojanowska
