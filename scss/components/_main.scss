@@ -44,8 +44,8 @@ footer{
   opacity: 0.4;
   -webkit-animation: glow 3s ease-in-out forwards;
   animation: glow 3s ease-in-out forwards;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: .25s;
+  animation-delay: .25s;
 }
 
 .sa-logo:hover {
@@ -70,8 +70,8 @@ footer{
   opacity: .2;
   -webkit-animation: glow2 3s ease-in-out forwards;
   animation: glow2 3s ease-in-out forwards;
-  -webkit-animation-delay: 3.25s;
-  animation-delay: 3.25s;
+  -webkit-animation-delay: .9s;
+  animation-delay: .9s;
 }
 
 @keyframes glow2 {
@@ -298,16 +298,18 @@ footer{
   *{
     display: block;
     width: 100%;
+    background-color: $off-white;
+    border-radius: 5px;
   }
 
   input {
     padding-left: 1em;
+    border-radius: 5px;
     // &:first-child, &:nth-child(2){
     //   display: block;
     //   width: calc(50% - 1em);
     // }
   }
-
 
 }
 
@@ -322,6 +324,10 @@ footer{
     color: $black;
     background-color: $off-white;
     letter-spacing: 1.5px;
+    border-radius: 3px;
+    box-shadow: 0 15px 55px rgba(255,255,255,.3),
+              0 -15px 60px lighten($black,1%),
+              inset 0 2px 2px lighten($black,1%);
 }
 
 .push-top, .push-t {
@@ -329,15 +335,15 @@ footer{
 }
 
 .sa-btn-bid:active, .sa-btn-bid:focus, .sa-btn-bid:focus {
-    backround-color: red;
+    backround-color: $black;
 }
 
 .sa-btn:active {
-  color: red;
+  color: black;
 }
 
 .sa-btn:focus {
-  color: red;
+  color: black;
 }
 
 .sa-terms-wrapper {
@@ -352,6 +358,25 @@ footer{
 
 }
 
+.sa-grey {
+  color: #7e7f82;
+}
+
+.sa-sponsor {
+  width: 100%;
+}
+
+.sa-underline {
+  border-bottom: 1px dotted #7e7f82;
+  width: 58%;
+  height: 2px;
+  display: block;
+  margin: .5em auto;
+}
+
+.pad-even {
+  padding-top: .5em;
+}
 
 @media only screen and (min-width: 25em) {
 

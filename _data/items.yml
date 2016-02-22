@@ -1,139 +1,174 @@
 - number: 1
-  description: gift card
+  description: Gift Card
   sponsor: Doree's Habit
   image: dorees-habit-50.jpg
   value: Value $50.00
   suggestion: Start at $25.00
 
 - number: 2
-  description: gift card
+  description: Gift Card
   sponsor: The Grand
   image: the-grand-50.jpg
   value: Value $50.00
   suggestion: Start at $25.00
 
 - number: 3
-  description: gift card
+  description: Gift Card
   sponsor: Metropolitan
   image: metropolitan-50.jpg
   value: Value $50.00
   suggestion: Start at $25.00
 
 - number: 4
-  description: gift card
+  description: Gift Card
   sponsor: Subway
   image: subway-card-50.jpg
   value: Value $50.00
   suggestion: Start at $25.00
 
 - number: 5
-  description: signed poster
-  sponsor: Andrea Emery
+  description: Signed Poster
+  sponsor: Aaron Draplin
   image: draplin-poster-100.jpg
   value: Value $100.00
   suggestion: Start at $40.00
 
 - number: 6
-  description: Radiographs (if necessary) and cleaning service
+  description: Radiographs &amp; Cleaning
   sponsor: AC Dental Clinic
   image: free-dental-exam-100.jpg
   value: Value $100.00
   suggestion: Start at $40.00
 
 - number: 7
-  description: Oral-B Vitality electric toothbrush
-  sponsor: AC Dental Clinic
+  description: Electric Toothbrush
+  sponsor: Oral-B
   image: electric-toothbrush.jpg
   value: Value $40.00
   suggestion: Start at $15.00
 
 - number: 8
-  description: girl's night out gift basket
-  sponsor: Chenise Paquette
+  description: Gift Basket
+  sponsor: Girl's Night Out
   image: girls-night-out-giftbasket.jpg
   value: Value $75.00
   suggestion: Start at $35.00
 
 - number: 9
-  description: iPad 2 case Combo
+  description: iPad 2 Case Combo
   sponsor: Connections Bookstore
   image: ipad-2-case-combo-50.jpg
   value: Value $50.00
   suggestion: Start at $25.00
 
 - number: 10
-  description: Jackson Triggs Icewine
-  sponsor: Chenise Paquette
+  description: Icewine
+  sponsor: Jackson Triggs
   image: jackson-triggs-icewine.jpg
   value: Value $50.00
   suggestion: Start at $25.00
 
 - number: 11
-  description: Kate Spade ring
-  sponsor: Emily Lavinskas
+  description: Designer Ring
+  sponsor: Kate Spade
   image: kate-spade-ring-54.jpg
   value: Value $54.00
   suggestion: Start at $25.00
 
 - number: 12
-  description: Make Shit Happen shirt (L) - Red
+  description: Make Shit Happen Shirt (L / Red)
   sponsor: Andrea Emery
   image: make-shit-happen-shirts.jpg
   value: Value $25.00
   suggestion: Start at $10.00
 
 - number: 13
-  description: Make Shit Happen shirt (M) - Maroon
+  description: Make Shit Happen Shirt (M / Maroon)
   sponsor: Andrea Emery
   image: make-shit-happen-shirts.jpg
   value: Value $25.00
   suggestion: Start at $10.00
 
 - number: 14
-  description: McIntosh Mugset
-  sponsor: Chenise Paquette
+  description: Designer Mug Set
+  sponsor: McIntosh
   image: mcintosh-mugset.jpg
   value: Value $50.00
   suggestion: Start at $25.00
 
 - number: 15
-  description: gift card
+  description: Gift Card
   sponsor: Nspired Signage & Advertising
   image: nspired-signs-50.jpg
   value: Value $50.00
   suggestion: Start at $25.00
 
 - number: 16
-  description: Camo five panel hat
+  description: Five Panel Hat (Camo)
   sponsor: Off The Dome
   image: otd-5-panel.jpg
   value: Value $40.00
   suggestion: Start at $20.00
 
 - number: 17
-  description: sterling silver abalone marcasite necklace
-  sponsor: Jamie Smith
+  description: Sterling Silver, Abalone &amp; Marcasite
+  sponsor: Designer Necklace
   image: silver-abalone-marcasite-necklace-100.jpg
   value: Value $100.00
-  suggestion: Start at $50.00
+  suggestion: Start at $40.00
 
 - number: 18
-  description: Tocara diami necklace
-  sponsor: Jamie Smith
+  description: DiAmi Necklace
+  sponsor: Tocara
   image: tocara-diami-necklace-75.jpg
   value: Value $75.00
-  suggestion: Start at $40.00
+  suggestion: Start at $35.00
 
 - number: 19
-  description: tabletop easel
-  sponsor: Marissa Godwin
+  description: Tabletop Easel
+  sponsor: Artist Supplies
   image: table-top-easel-75.jpg
   value: Value $75.00
-  suggestion: Start at $40.00
+  suggestion: Start at $35.00
 
 - number: 20
-  description: standing easel
-  sponsor: Marissa Godwin
+  description: Standing Easel
+  sponsor: Artist Supplies
   image: easel-150.jpg
   value: Value $150.00
   suggestion: Start at $65.00
+
+- number: 21
+  description: by Katie McPeak
+  sponsor: Handmade Jewelry
+  image:
+  value: Value $25.00
+  suggestion: Start at $10.00
+
+- number: 22
+  description: by Avery Burnett
+  sponsor: Designer Plantholders
+  image:
+  value: Value $25.00
+  suggestion: Start at $10.00
+
+- number: 23
+  description: by Anna Trojanowska
+  sponsor: Embroidered Hoop
+  image:
+  value: Value $25.00
+  suggestion: Start at $10.00
+
+- number: 24
+  description: Gift Card
+  sponsor: Lone Star
+  image:
+  value: Value $50.00
+  suggestion: Start at $20.00
+
+- number: 25
+  description: Gift Card
+  sponsor: Kungfu Bistro
+  image:
+  value: Value $75.00
+  suggestion: Start at $35.00

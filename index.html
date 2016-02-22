@@ -9,7 +9,7 @@ layout: default
 
   <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 align-switch-left">
       <h1 class="white title">SILENT AUCTION</h1>
-      <p class="milli grey">Thanks for supporting our grads! Select your item and place your bid using the form below.</p>
+      <p class="milli grey">Thanks for supporting Framework 2016 – Algonquin College Graphic Design Graduates. You can bid on one item per visit,  but you are welcome to visit our page multiple times! Winners will be contacted by March 1st, 2016.</p>
   </div>
 
   <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 align-switch-right">
@@ -40,14 +40,20 @@ layout: default
 <div class="padded-container fade-in">
   <div class="grid pad-t">
     {% for items in site.data.items %}
+
       <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-l-1-5 unit-xl-1-6 center pad-b-2 desaturate">
         <img class="image" src="https://grads.images.algonquindesign.ca.s3.amazonaws.com/silent-auction/{{items.image}}" alt="{{items.description}}">
         <div class="text-container">
           <p class="white milli clear-space">{{items.number}}</p>
-          <p class="white kilo clear-space">{{items.sponsor}}</p>
-          <p class="white kilo clear-space">{{items.description}}</p>
-          <p class="white micro italic clear-space line-height-small">{{items.value}}</p>
-          <p class="white micro italic clear-space line-height-small">{{items.suggestion}}</p>
+          <div class="sa-sponsor">
+            <p class="white mega clear-space">{{items.sponsor}}</p>
+            <span class="sa-underline"></span>
+          </div>
+          <p class="sa-grey clear-space">{{items.description}}</p>
+          <div class="pad-even">
+            <p class="white micro clear-space line-height-small">{{items.value}}</p>
+            <p class="white micro italic clear-space line-height-small">{{items.suggestion}}</p>
+          </div>
           <a class="white unit sa-btn sa-btn-bid push-t js-item" id="{{items.number}}" href="#{{items.number}}">Place Bid</a>
         </div><!--/text-container-->
       </div> <!--/unit-->
@@ -60,8 +66,6 @@ layout: default
     <p class="white">Fill Out Your Bid</p>
   </div>
 </div>
-
-
 
 
 <!--Google Form-->
@@ -80,22 +84,22 @@ target="hidden_iframe" onsubmit="submitted=true;">
 
       <!--<form class="sa-input" action="https://docs.google.com/forms/d/1HgDDy6xHI0QgesGlnqvhv096Iog3wERBfxXDMFDrBrs/formResponse">-->
       <!-- Items -->
-        <input class="js-input-number" type="number" min="1" max="20" name="entry.395295645" placeholder="Item Number ex. '1'">
+        <input class="js-input-number sa-grey milli" type="number" min="1" max="20" name="entry.395295645" placeholder="Item Number ex. '1'">
 
       <!-- Bid Amount -->
           <!-- <label class="white" for="entry.2025357677"></label> -->
-          <input class="push-t" type="number" min="1" name="entry.2025357677" placeholder="$CAD Bid ex. '15.00'">
+          <input class="push-t milli sa-bg-white" type="number" min="1" name="entry.2025357677" placeholder="$CAD Bid ex. '15.00'">
 
 
       <!-- Your Name -->
-        <input class="push-t" type="text" name="entry.843531166" placeholder="Name" required>
+        <input class="push-t milli" type="text" name="entry.843531166" placeholder="Name" required>
 
       <!-- Your Email -->
-        <input class="push-t" type="email" name="entry.282284128" placeholder="Email" required>
+        <input class="push-t milli" type="email" name="entry.282284128" placeholder="Email" required>
 
 
       <!-- Phone Number -->
-        <input class="push-t" type="tel" name="entry.2144800808" placeholder="Phone (optional)">
+        <input class="push-t milli" type="tel" name="entry.2144800808" placeholder="Phone (optional)">
     </div> <!--/unit-->
 
     <div class="unit xs-1-8 push-t">
@@ -107,7 +111,7 @@ target="hidden_iframe" onsubmit="submitted=true;">
     </div>
     <div class="unit xs-3-8 text-right push-t">
       <!-- Submit Button -->
-      <input class="push-t sa-btn" type="submit" value="submit">
+      <input class="push-t sa-btn sa-btn-bid" type="submit" value="submit">
     </div>
   </div>
 
