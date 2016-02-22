@@ -39,9 +39,3 @@ function initializeClock(id, endtime) {
 
 var deadline = new Date(Date.parse(new Date('Feb 27 2016 23:59:59 GMT+02:00')));
 initializeClock('clockdiv', deadline);
-
-var = $card = ('.card-wrapper');
-
-$card.on('click', function() {
-  $this.toggleClass('js-card-up');
-});

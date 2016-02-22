@@ -430,13 +430,13 @@ footer{
   border-color: transparent transparent transparent $sa-grey-2;
 }
 
-// #sa-envelope:hover #sa-card {
-//   top:-20px;
-// }
+#sa-envelope:hover #sa-card {
+  top:-20px;
+}
 
-// #sa-envelope:active #sa-card {
-//   top: -20px;
-// }
+#sa-envelope:active #sa-card {
+  top: -20px;
+}
 
 .js-card-up {
   top: -20em;

@@ -2251,6 +2251,14 @@ footer p {
   border-color: transparent transparent transparent #a6a5a8;
 }
 
+#sa-envelope:hover #sa-card {
+  top: -20px;
+}
+
+#sa-envelope:active #sa-card {
+  top: -20px;
+}
+
 .js-card-up {
   top: -20em;
 }

@@ -5,3 +5,7 @@ _site
 _site/css/style.css.map
 
 _site/index.html
+
+_site/css/style.css
+
+_site/js/index.js
