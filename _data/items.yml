@@ -154,19 +154,33 @@
 
 - number: 23
   description: by Anna Trojanowska
-  sponsor: Embroidered Hoop
-  image:
+  sponsor: Embroidered Hoop (L)
+  image: embroidery-20.jpg
   value: Value $25.00
   suggestion: Start at $10.00
 
 - number: 24
+  description: by Anna Trojanowska
+  sponsor: Embroidered Hoop (M)
+  image: embroidery-20.jpg
+  value: Value $20.00
+  suggestion: Start at $7.50
+
+- number: 25
+  description: by Anna Trojanowska
+  sponsor: Embroidered Hoop (S)
+  image: embroidery-20.jpg
+  value: Value $15.00
+  suggestion: Start at $5.00
+
+- number: 26
   description: Gift Card
   sponsor: Lone Star
   image:
   value: Value $50.00
   suggestion: Start at $20.00
 
-- number: 25
+- number: 27
   description: Gift Card
   sponsor: Kungfu Bistro
   image:
