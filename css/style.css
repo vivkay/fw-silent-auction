@@ -2125,7 +2125,7 @@ footer p {
 }
 
 .sa-btn-bid {
-  margin: 0;
+  margin: 1em 0 0;
   border: 0;
   font-size: .75rem;
   padding: .75rem 1.5rem;
