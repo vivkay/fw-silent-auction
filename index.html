@@ -42,7 +42,7 @@ layout: default
     {% for items in site.data.items %}
 
       <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-l-1-5 unit-xl-1-6 center pad-b-2 desaturate">
-        <img class="image" src="https://grads.images.algonquindesign.ca.s3.amazonaws.com/silent-auction/{{items.image}}" alt="{{items.description}}">
+        <img class="image" src="http://grads.images.algonquindesign.ca.s3.amazonaws.com/silent-auction/{{items.image}}" alt="{{items.description}}">
         <div class="text-container">
           <p class="white milli clear-space">{{items.number}}</p>
           <div class="sa-sponsor">
@@ -74,22 +74,14 @@ layout: default
   <div class="sa-form grid">
     <div class="unit unit-xs-1">
 
-<script type="text/javascript">var submitted=false;</script>
-<iframe name="hidden_iframe" id="hidden_iframe"
-style="display:none;" onload="if(submitted)
-{window.location='thanks.html';}"></iframe>
-<form class="sa-input" action="https://docs.google.com/forms/d/1HgDDy6xHI0QgesGlnqvhv096Iog3wERBfxXDMFDrBrs/formResponse" method="post"
-target="hidden_iframe" onsubmit="submitted=true;">
-
-
-      <!--<form class="sa-input" action="https://docs.google.com/forms/d/1HgDDy6xHI0QgesGlnqvhv096Iog3wERBfxXDMFDrBrs/formResponse">-->
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='thanks.html';}"></iframe>
+    <form class="sa-input" action="http://docs.google.com/forms/d/1HgDDy6xHI0QgesGlnqvhv096Iog3wERBfxXDMFDrBrs/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
       <!-- Items -->
         <input class="js-input-number sa-grey milli" type="number" min="1" max="35" name="entry.395295645" placeholder="Item Number ex. '1'">
 
       <!-- Bid Amount -->
-          <!-- <label class="white" for="entry.2025357677"></label> -->
-          <input class="push-t milli sa-bg-white" type="number" min="1" name="entry.2025357677" placeholder="$CAD Bid ex. '15.00'">
-
+        <input class="push-t milli sa-bg-white" type="number" min="1" name="entry.2025357677" placeholder="$CAD Bid ex. '15.00'">
 
       <!-- Your Name -->
         <input class="push-t milli" type="text" name="entry.843531166" placeholder="Name" required>
