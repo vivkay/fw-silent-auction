@@ -69,7 +69,7 @@
   suggestion: Start at $25.00
 
 - number: 11
-  description: Designer Ring
+  description: Designer Bracelet
   sponsor: Kate Spade
   image: kate-spade-ring-54.jpg
   value: Value $54.00
@@ -140,21 +140,21 @@
 
 - number: 21
   description: by Anna Trojanowska
-  sponsor: Embroidered Hoop (L)
+  sponsor: Embroidered Hoop (L) Icecream
   image: embroidery-20.jpg
   value: Value $25.00
   suggestion: Start at $10.00
 
 - number: 22
   description: by Anna Trojanowska
-  sponsor: Embroidered Hoop (M)
+  sponsor: Embroidered Hoop (M) Donut
   image: embroidery-20.jpg
   value: Value $20.00
   suggestion: Start at $7.50
 
 - number: 23
   description: by Anna Trojanowska
-  sponsor: Embroidered Hoop (S)
+  sponsor: Embroidered Hoop (S) Popsicle
   image: embroidery-20.jpg
   value: Value $15.00
   suggestion: Start at $5.00
