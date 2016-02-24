@@ -10,6 +10,7 @@ layout: default
   <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 align-switch-left">
       <h1 class="white title">SILENT AUCTION</h1>
       <p class="milli grey">Thanks for supporting Framework 2016 – Algonquin College Graphic Design Graduates. You can bid on one item per visit,  but you are welcome to visit our page multiple times! Winners will be contacted by March 1st, 2016.</p>
+      <a class="sa-btn go-to-highest" href="#highest-bids">See the Highest Bids</a>
   </div>
 
   <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 align-switch-right">
@@ -36,10 +37,8 @@ layout: default
     </div><!--/clock-width-->
   </div><!--/unit-->
 </div><!--/grid-->
-<h3 class="white center pad-b">Highest Bids</h3>
-<iframe src="https://docs.google.com/spreadsheets/d/1U11x-lKWYRnTWbuOXMxT0jG3qKimVHl8wx0Uc2-ITMk/pubhtml?gid=1689080549&amp;single=true&amp;widget=false&amp;chrome=false&amp;headers=false" style="overflow-x: hidden; display: block; width: 100%; max-width: 20em; height: 15em; margin: 0 auto;"></iframe>
 
-<div class="padded-container pad-t-2 fade-in">
+<div class="padded-container fade-in">
   <div class="grid pad-t">
     {% for items in site.data.items %}
 
@@ -114,8 +113,10 @@ layout: default
   </div> <!--/grid -->
 </div> <!-- /sa-form-wrapper -->
 
-<!-- <div class="box-glow"></div> -->
-
+<div id="highest-bids" class="box-glow highest-bids">
+<h3 class="white center  pad-b">Highest Bids</h3>
+<iframe src="https://docs.google.com/spreadsheets/d/1U11x-lKWYRnTWbuOXMxT0jG3qKimVHl8wx0Uc2-ITMk/pubhtml?gid=1689080549&amp;single=true&amp;widget=false&amp;chrome=false&amp;headers=false" style="overflow-x: hidden; display: block; width: 100%; max-width: 20em; height: 15em; margin: 0 auto;"></iframe>
+</div>
 
 <div class="rtt">
   <a class="rtt-btn sa-btn" href="#sa-top">Return to Top</a>

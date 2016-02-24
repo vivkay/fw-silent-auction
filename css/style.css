@@ -2103,7 +2103,7 @@ footer p {
 
 .sa-form-wrapper {
   text-align: center;
-  margin: 0 10%;
+  margin: 0 10% 4em;
 }
 
 .sa-form {
@@ -2541,4 +2541,15 @@ footer p {
 
 .thanks-main {
   text-align: center;
+}
+
+.highest-bids {
+  display: block;
+  height: auto;
+  padding: 2em;
+}
+
+.go-to-highest {
+  display: inline-block;
+  margin: 2em auto;
 }

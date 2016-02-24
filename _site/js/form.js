@@ -16,3 +16,8 @@ $('.rtt-btn').click(function(){
 	}, 750);
 });
 
+$('.go-to-highest').click(function(){
+  $('html, body').animate({
+    scrollTop: $('#highest-bids').offset().top
+  }, 750);
+});
