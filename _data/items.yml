@@ -141,21 +141,21 @@
 - number: 21
   description: by Anna Trojanowska
   sponsor: Embroidered Hoop (L) Icecream
-  image: embroidery-20.jpg
+  image: embroidery-l.jpg
   value: Value $25.00
   suggestion: Start at $10.00
 
 - number: 22
   description: by Anna Trojanowska
   sponsor: Embroidered Hoop (M) Donut
-  image: embroidery-20.jpg
+  image: embroidery-m.jpg
   value: Value $20.00
   suggestion: Start at $7.50
 
 - number: 23
   description: by Anna Trojanowska
   sponsor: Embroidered Hoop (S) Popsicle
-  image: embroidery-20.jpg
+  image: embroidery-s.jpg
   value: Value $15.00
   suggestion: Start at $5.00
 
